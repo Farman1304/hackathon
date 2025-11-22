@@ -34,6 +34,10 @@ body {
 .like-button.liked {
     color: red;
 }
-.colors{
-    margin-top: 10rem;
+.colors {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: none;
+    /* Corrected syntax for a simple shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
