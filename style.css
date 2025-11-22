@@ -1,0 +1,39 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.signup-card, .login-card {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.navbar-text {
+    font-weight: 600;
+}
+
+.post-card {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.post-card:hover {
+    transform: translateY(-2px);
+}
+
+.like-button {
+    cursor: pointer;
+    color: gray;
+    transition: color 0.1s;
+    font-size: 1.2rem;
+}
+
+.like-button.liked {
+    color: red;
+}
+.colors{
+    margin-top: 10rem;
+}
